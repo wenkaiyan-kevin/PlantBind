@@ -27,8 +27,11 @@ We recommend that you use **conda** to install all of the following software.
 - scipy       v1.5.3
 - matplotlib  v3.5.1
 
+### Data preparation and processing
+In this part we will introduce the **input data format** and **data processing method** used in the model
 
 
 
-### The training and testing process of our model
+
+
 
