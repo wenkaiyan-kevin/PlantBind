@@ -16,14 +16,17 @@ The model provides researchers with tools to:
 These are a work in progress, so forgive incompleteness for the moment. If there's a task that you're interested in that I haven't included, feel free to post it as an Issue at the top.
 
 #### Software Requirements
-We recommend that you use conda to install all of the following software
+We recommend that you use **conda** to install all of the following software.
 
 ***software list***
-- python      v3.6.8
-- tensorflow  v1.14.0
+- python      v3.8.12
+- pytorch     v1.10.2
 - numpy       v1.16.4
-- cudatoolkit v9.2
-- cudnn       v7.6.0
+- pandas      v1.4.1
+- sklearn     v1.0.2
+- scipy       v1.5.3
+- matplotlib  v3.5.1
+
 
 
 
