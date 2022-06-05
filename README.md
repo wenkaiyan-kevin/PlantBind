@@ -39,4 +39,4 @@ For training, the data mainly consists of three files: (1)DNA sequence file; (2)
 For predicting, the data mainly consists of three files: (1)DNA sequence file; (2)DNA shape file  
 
 
-- [Data format](docs/data_format.md)
+- [Data Format Details Introduction](docs/data_format.md)
