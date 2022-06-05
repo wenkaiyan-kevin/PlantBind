@@ -74,9 +74,9 @@ python main.py --inputs data_folder/ --length 101 --mode test
 ```
 ### 4. Use the model to predict new data
 
-
-
-
+**Input:** `sequence.table`,`DNA_shape.npy`
+**Output:** `accuracy`
+The analysis is done by using the [inference.py](https://github.com/wenkaiyan-kevin/PlantBind/blob/main/src/inference.py) script and modifying the relevant parameters.
 
 
 
