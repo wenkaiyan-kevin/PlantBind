@@ -44,6 +44,8 @@ For predicting, the data mainly consists of three files: (1)DNA sequence file; (
   - [DNA Shape File](docs/data_format.md#DNA_Shape_File)
   - [Data Label File](docs/data_format.md#Data_Label_File)
 
-
-Construction of the dataset
+- [Construction of the dataset](docs/make-datasets.md)
+  - [DNA Sequence Data](docs/make-datasets.md#DNA_Sequence_Data)
+  - [DNA Shape Data](docs/make-datasets.md#DNA_Shape_Data)
+  - [Data Label](docs/make-datasets.md#Data_Label)
 
