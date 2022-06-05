@@ -50,3 +50,15 @@ Next, we will mainly introduce how to create the files mentioned above.
   - [DNA Shape Data](docs/make-datasets.md#DNA_Shape_Data)
   - [Data Label](docs/make-datasets.md#Data_Label)
 
+## 3. Train the model
+
+
+
+## 4. Use the model to predict new data
+
+
+
+
+
+
+
