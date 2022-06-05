@@ -21,7 +21,7 @@ During training, validation, testing, their filenames must be **train_DNA_shape.
 If it is a prediction process, the file name must save **DNA_shape.npy**
 
 ### ***Data Label File*** <a name="Data_Label_File"/>
-This file mainly contains the sequence information of DNA, each column is a TF, each row is a peak region.
+This file mainly contains the sequence information of DNA, each column is a TF, each row is a peak region. Among them, 0 means no binding, 1 means binding.  
 An example of data is shown below:  
 <br />
 <img src="https://github.com/wenkaiyan-kevin/PlantBind/blob/main/images/data-label.png" width = "600" height = "300" >  
