@@ -26,7 +26,7 @@ cut -f 2 model-input-seq.table > sequence.table
 ```
 
 ### ***2. DNA Shape Data*** <a name="DNA_Shape_Data"/>
-
+This section uses [translate.py](https://github.com/wenkaiyan-kevin/PlantBind/blob/main/src/translate.py) to generate shape information for DNA sequences
 
 
 
