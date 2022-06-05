@@ -15,7 +15,7 @@ The model provides researchers with tools to:
 ## Tutorials
 These are a work in progress, so forgive incompleteness for the moment. If there's a task that you're interested in that I haven't included, feel free to post it as an Issue at the top.
 
-### Software Requirements
+### 1. Software Requirements
 We recommend that you use [conda](https://docs.conda.io/en/latest/) to install all of the following software.
 
 ***software list***
@@ -27,7 +27,7 @@ We recommend that you use [conda](https://docs.conda.io/en/latest/) to install a
 - scipy       v1.5.3
 - matplotlib  v3.5.1
 
-### Data information and processing
+### 2. Data information and processing
 In this part, we will first introduce the **data information** used in this model, then introduce the training and testing **data formats**, and finally introduce how to create a data set that meets the model requirements for prediction.  
 All data is in the [data directory](https://github.com/wenkaiyan-kevin/PlantBind/tree/main/data):
 - **Ath-TF-peaks**: the TFBS peak info of 315 Ath TFs, and one neg.bed file
