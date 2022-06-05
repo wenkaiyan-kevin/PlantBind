@@ -54,10 +54,10 @@ np.save("model-input-DNAshape-normalized-101.npy",output)
 ```
 
 ### ***3. Data Label*** <a name="Data_Label"/>
-Generating the label matrix is divided into the following steps：
-(i)  Merge all TF peak files into one file
-(ii) Use the `bedtools annotate -i merge.bed -files ... -names ... > model-input-labels.txt` generate the label matrix.
-(iii)Generate binary matrix.
+Generating the label matrix is divided into the following steps：  
+(i)  Merge all TF peak files into one file  
+(ii) Use the `bedtools annotate -i merge.bed -files ... -names ... > model-input-labels.txt` generate the label matrix.  
+(iii)Generate binary matrix.  
 ```
 import pandas as pd
 import h5py
