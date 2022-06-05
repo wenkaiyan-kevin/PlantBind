@@ -40,3 +40,10 @@ For predicting, the data mainly consists of three files: (1)DNA sequence file; (
 
 
 - [Data Format Details Introduction](docs/data_format.md)
+  - [DNA Sequence File](docs/data_format.md#DNA_Sequence_File)
+  - [DNA Shape File](docs/data_format.md#DNA_Shape_File)
+  - [Data Label File](docs/data_format.md#Data_Label_File)
+
+
+
+
