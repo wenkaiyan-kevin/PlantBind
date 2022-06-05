@@ -63,6 +63,11 @@ python -m torch.distributed.launch --nproc_per_node=8 \
         --batch_size 1024 --lr 0.01 \
         --multi_GPU True
 ```
+- **Testing**  
+**Input:** `test_sequence.table`,`test_DNA_shape.npy`,`test_label.txt`. 
+All data files need to be placed in the same folder before starting testing, such as `data_folder`
+**Model:**`trained_model_101_seqs.pkl`
+**Output:** `metrics_b.json`,`metrics_m.json`,`Gmean_threshold_b.txt`,`Gmean_threshold_m.txt`,`precision_recall_curve_TFs_315.pdf`,`roc_prc_curve_TFs_315.pdf`
 
 ### 4. Use the model to predict new data
 
