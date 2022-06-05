@@ -53,9 +53,28 @@ for line in open('../../03-sequence-dataset/02-seqlen-101/model-input-seq.table'
 np.save("model-input-DNAshape-normalized-101.npy",output)
 ```
 
-
-
-
 ### ***3. Data Label*** <a name="Data_Label"/>
+Generating the label matrix is divided into the following steps：
+(i)  Merge all TF peak files into one file
+(ii) Use the `bedtools annotate -i merge.bed -files ... -names ... > model-input-labels.txt` generate the label matrix.
+(iii)Generate binary matrix.
+```
+import pandas as pd
+import h5py
+
+data = pd.read_csv('model-input-labels.txt', sep='\t')
+
+data[data.iloc[:,3::] >=0.8] = 1
+data[data.iloc[:,3::] < 0.8] = 0
+
+data.to_csv('model-input-labels-mul-class.txt', index=False, sep='\t')
+```
+
+
+
+
+
+
+
 
 
