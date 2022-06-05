@@ -28,7 +28,8 @@ We recommend that you use [conda](https://docs.conda.io/en/latest/) to install a
 - matplotlib  v3.5.1
 
 ### Data information and processing
-In this part, we will first introduce the **data information** used in this model, then introduce the training and testing **data formats**, and finally introduce how to create a data set that meets the model requirements for prediction
+In this part, we will first introduce the **data information** used in this model, then introduce the training and testing **data formats**, and finally introduce how to create a data set that meets the model requirements for prediction.
+All data in the [folder](https://github.com/wenkaiyan-kevin/PlantBind/tree/main/data)
 
 
 
