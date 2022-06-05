@@ -1,6 +1,6 @@
 # Data processing methods
 
-### ***DNA Sequence Data*** <a name="DNA_Sequence_Data"/>
+### ***1. DNA Sequence Data*** <a name="DNA_Sequence_Data"/>
 
 **Input files**: (1) genome fasta file; (2) peak files in bed format.  
 **Output file**: TFBSs sequence file  
@@ -25,13 +25,13 @@ with open('model-input-seq.table', 'w') as f:
 cut -f 2 model-input-seq.table > sequence.table
 ```
 
-### ***DNA Shape Data*** <a name="DNA_Shape_Data"/>
+### ***2. DNA Shape Data*** <a name="DNA_Shape_Data"/>
 
 
 
 
 
 
-### ***Data Label*** <a name="Data_Label"/>
+### ***3. Data Label*** <a name="Data_Label"/>
 
 
