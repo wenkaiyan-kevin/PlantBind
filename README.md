@@ -52,7 +52,7 @@ Next, we will mainly introduce how to create the files mentioned above.
 
 ### 3. Train and Test the model
 - **Training**  
-**Input:** `train_sequence.table`,`train_DNA_shape.npy`,`train_label.txt`.
+**Input:** `train_sequence.table`,`train_DNA_shape.npy`,`train_label.txt`.  
 All data files need to be placed in the same folder before starting training, such as `data_folder`
 **Output:** `trained_model_101_seqs.pkl`  
 
