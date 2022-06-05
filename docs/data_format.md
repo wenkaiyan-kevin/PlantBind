@@ -7,6 +7,8 @@ An example of data is shown below:
 <img src="https://github.com/wenkaiyan-kevin/PlantBind/blob/main/images/sequence-format.png" width = "600" height = "300" >  
 <br />
 <br />
+During training, validation, testing, their filenames must be **train_sequence.table**, **valid_sequence.table** and **test_sequence.table**.  
+If it is a prediction process, the file name must save **sequence.table**
 
 
 ### ***DNA Shape File*** <a name="DNA_Shape_File"/>
