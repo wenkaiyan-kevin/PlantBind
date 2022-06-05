@@ -15,7 +15,7 @@ The model provides researchers with tools to:
 ## Tutorials
 These are a work in progress, so forgive incompleteness for the moment. If there's a task that you're interested in that I haven't included, feel free to post it as an Issue at the top.
 
-### Software Requirements
+### 1. Software Requirements
 We recommend that you use [conda](https://docs.conda.io/en/latest/) to install all of the following software.
 
 ***software list***
@@ -27,11 +27,26 @@ We recommend that you use [conda](https://docs.conda.io/en/latest/) to install a
 - scipy       v1.5.3
 - matplotlib  v3.5.1
 
-### Data information and processing
-In this part, we will first introduce the **data information** used in this model, then introduce the training and testing **data formats**, and finally introduce how to create a data set that meets the model requirements for prediction
+### 2. Data information and processing
+In this part, we will first introduce the **data information** used in this model, then introduce the training and predicting **data formats**, and finally introduce how to create a data set that meets the model requirements for prediction.  
+All data is in the [data directory](https://github.com/wenkaiyan-kevin/PlantBind/tree/main/data):
+- **Ath-TF-peaks**: the TFBS peak info of 315 Ath TFs, and one neg.bed file
+- **Maize-TF-peaks**: the TFBS peak info of 4 maize TFs for trans-specise
+- **model**: The file that holds the model, which can be loaded to predict new datasets
 
+#### 2.1 Training and Predicting data formats
+For training, the data mainly consists of three files: (1)DNA sequence file; (2)DNA shape file; (3)data label file  
+For predicting, the data mainly consists of three files: (1)DNA sequence file; (2)DNA shape file  
 
+- [Data Format Details Introduction](docs/data_format.md)
+  - [DNA Sequence File](docs/data_format.md#DNA_Sequence_File)
+  - [DNA Shape File](docs/data_format.md#DNA_Shape_File)
+  - [Data Label File](docs/data_format.md#Data_Label_File)
 
-
-
+#### 2.2 Construction of the dataset
+Next, we will mainly introduce how to create the files mentioned above.
+- [Data processing methods](docs/make-datasets.md)
+  - [DNA Sequence Data](docs/make-datasets.md#DNA_Sequence_Data)
+  - [DNA Shape Data](docs/make-datasets.md#DNA_Shape_Data)
+  - [Data Label](docs/make-datasets.md#Data_Label)
 
