@@ -27,3 +27,4 @@ An example of data is shown below:
 <img src="https://github.com/wenkaiyan-kevin/PlantBind/blob/main/images/data-label.png" width = "600" height = "300" >  
 <br />
 
+During training, validation, testing, their filenames must be **train_label.txt**, **valid_label.txt** and **test_label.txt**.
