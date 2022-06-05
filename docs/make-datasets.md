@@ -26,8 +26,32 @@ cut -f 2 model-input-seq.table > sequence.table
 ```
 
 ### ***2. DNA Shape Data*** <a name="DNA_Shape_Data"/>
-This section uses [translate.py](https://github.com/wenkaiyan-kevin/PlantBind/blob/main/src/translate.py) to generate shape information for DNA sequences
+This section uses [translate.py](https://github.com/wenkaiyan-kevin/PlantBind/blob/main/src/translate.py) 
+to generate shape information for DNA sequences.  
+Here, the `model-input-seq.table` file generated in the previous step is used as input, 
+and you should specify the value of the parameter `sample_num`(sample size).
 
+```
+import pandas as pd
+import numpy as np
+from translate  import seq_to_shape
+
+sample_num = 598858
+seq_len = 101
+
+output = np.zeros(shape=(sample_num, 97, 14))
+
+i = 0
+for line in open('../../03-sequence-dataset/02-seqlen-101/model-input-seq.table','r'):
+    print(i)
+    line_list = line.strip('\n').split('\t')
+    seq_name, seq = line_list[0], line_list[1]
+    shape_info = np.array(seq_to_shape(seq, normalize=True).drop([1,2,seq_len-1,seq_len]))
+    output[i,:,:] = shape_info
+    i+=1
+
+np.save("model-input-DNAshape-normalized-101.npy",output)
+```
 
 
 
