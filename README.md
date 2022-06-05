@@ -50,9 +50,19 @@ Next, we will mainly introduce how to create the files mentioned above.
   - [DNA Shape Data](docs/make-datasets.md#DNA_Shape_Data)
   - [Data Label](docs/make-datasets.md#Data_Label)
 
-### 3. Train the model
+### 3. Train and Test the model
+- Training
+**Input:** `train_sequence.table`,`train_DNA_shape.npy`,`train_label.txt`.
+All data files need to be placed in the same folder before starting training, such as `data_folder`
+**Output:** `trained_model_101_seqs.pkl`  
 
-
+```
+python -m torch.distributed.launch --nproc_per_node=8 \
+        main.py --inputs data_folder/ --length 101 \
+        --OHEM True --focal_loss True \
+        --batch_size 1024 --lr 0.01 \
+        --multi_GPU True
+```
 
 ### 4. Use the model to predict new data
 
