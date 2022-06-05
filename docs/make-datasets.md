@@ -2,7 +2,7 @@
 
 ### ***DNA Sequence Data*** <a name="DNA_Sequence_Data"/>
 
-**Input files**: (1) genome fasta file; (2) peak files in bed format.
+**Input files**: (1) genome fasta file; (2) peak files in bed format.  
 **Output file**: TFBSs sequence file  
 
 1. Extract the sequence
@@ -20,11 +20,17 @@ with open('model-input-seq.table', 'w') as f:
         if re.match('^[ACGT]+$', str(seq_record.seq)) and len(str(seq_record.seq)) == 51:
             print(seq_record.id, seq_record.seq, sep='\t', file=f)
 ```
-
-
-
+3. Generate input files for the model
+```
+cut -f 2 model-input-seq.table > sequence.table
+```
 
 ### ***DNA Shape Data*** <a name="DNA_Shape_Data"/>
+
+
+
+
+
 
 ### ***Data Label*** <a name="Data_Label"/>
 
