@@ -34,8 +34,8 @@ All data is in the [data directory](https://github.com/wenkaiyan-kevin/PlantBind
 - **Maize-TF-peaks**: the TFBS peak info of 4 maize TFs for trans-specise
 - **model**: The file that holds the model, which can be loaded to predict new datasets
 
-
-
-
+#### 2.1 Training and Testing data formats
+*Training data*
+The data mainly consists of three files：（1）DNA sequence file 
 
 
