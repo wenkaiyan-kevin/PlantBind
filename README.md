@@ -38,13 +38,14 @@ All data is in the [data directory](https://github.com/wenkaiyan-kevin/PlantBind
 For training, the data mainly consists of three files: (1)DNA sequence file; (2)DNA shape file; (3)data label file  
 For predicting, the data mainly consists of three files: (1)DNA sequence file; (2)DNA shape file  
 
-
 - [Data Format Details Introduction](docs/data_format.md)
   - [DNA Sequence File](docs/data_format.md#DNA_Sequence_File)
   - [DNA Shape File](docs/data_format.md#DNA_Shape_File)
   - [Data Label File](docs/data_format.md#Data_Label_File)
 
-- [Construction of the dataset](docs/make-datasets.md)
+#### 2.2 Construction of the dataset
+Next, we will mainly introduce how to create the files mentioned above.
+- [Data processing methods](docs/make-datasets.md)
   - [DNA Sequence Data](docs/make-datasets.md#DNA_Sequence_Data)
   - [DNA Shape Data](docs/make-datasets.md#DNA_Shape_Data)
   - [Data Label](docs/make-datasets.md#Data_Label)
