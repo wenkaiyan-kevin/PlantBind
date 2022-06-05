@@ -69,6 +69,9 @@ All data files need to be placed in the same folder before starting testing, suc
 **Model:**`trained_model_101_seqs.pkl`  
 **Output:** `metrics_b.json`,`metrics_m.json`,`Gmean_threshold_b.txt`,`Gmean_threshold_m.txt`,`precision_recall_curve_TFs_315.pdf`,`roc_prc_curve_TFs_315.pdf`  
 
+```
+python main.py --inputs data_folder/ --length 101 --mode test
+```
 ### 4. Use the model to predict new data
 
 
