@@ -22,7 +22,7 @@ If it is a prediction process, the file name must save **DNA_shape.npy**
 
 ### ***Data Label File*** <a name="Data_Label_File"/>
 This file mainly contains the sequence information of DNA, each column is a TF, each row is a peak region.
-An example of data is shown below:
+An example of data is shown below:  
 <br />
 <img src="https://github.com/wenkaiyan-kevin/PlantBind/blob/main/images/data-label.png" width = "600" height = "300" >  
 <br />
